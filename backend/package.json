@@ -1,0 +1,44 @@
+{
+  "name": "wolfinic-backend",
+  "version": "1.0.0",
+  "description": "Wolfinic Multi-Vendor Marketplace Backend",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^1.41.3",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.8.0",
+    "morgan": "^1.11.0",
+    "multer": "^2.2.0",
+    "nanoid": "^5.1.0",
+    "nodemailer": "^6.10.0",
+    "pdfkit": "^0.16.0",
+    "qrcode": "^1.5.4",
+    "razorpay": "^2.9.6",
+    "sharp": "^0.34.1",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.8.1",
+    "stripe": "^18.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
